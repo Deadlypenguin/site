@@ -1,0 +1,115 @@
+{% set uses = [
+    'carousel'
+] %}
+
+{% set carousel_images = [
+    '/img/carousel/rdu.jpg',
+    '/img/carousel/hij.jpg',
+    '/img/carousel/nyc.jpg',
+    '/img/carousel/bos.jpg',
+    '/img/carousel/uky.jpg'
+] %}
+
+{% set skill_cards = [
+    {
+        title: 'Photography',
+        url: '/photography/',
+        img: '/img/photography_large.jpg',
+        desc: 'I love sharing my photos with the world. In addition to my photos from around the world, you can also see photos from weddings, engagements and other events I have photographed.'
+    },
+    {
+        title: 'Development',
+        url: 'https://connelly.dev',
+        img: '/img/development_large.png',
+        desc: 'Over the years, I have learned (and taught myself) lots about programming. Take a look at some of the development projects I\'m involved in, and more information about the languages I\'m familiar with.'
+    },
+    {
+        title: 'Design',
+        url: '/design/',
+        img: '/img/design_large.png',
+        desc: "My design experience doesn't just extend to web design, but also to physical products such as t-shirts and flyers."
+    }
+] %}
+
+{% extends "layout.html" %}
+
+{% block content %}
+<section class="section">
+    <div class="container content">
+        <h1 class="title has-text-centered">
+            Design and Photography
+        </h1>
+        <div id="carousel" class="carousel">
+            {% set i=1 %}
+            {% for image in carousel_images %}
+            <div class="item-{{ i }} has-text-centered">
+                <img src="{{ image }}">
+            </div>
+            {% set i=i+1 %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container content">
+        <h2>About</h2>
+        <article class="media">
+            <figure class="media-left is-hidden-mobile">
+                <p class="image is-300x300">
+                    <img src="/img/headshot.jpg">
+                </p>
+            </figure>
+            <div class="media-content">
+                <div class="content">
+                    <p>Ever since I was a child, I have loved photography and technology. Sometime around 1996, I
+                        started designing and programming sites for others.</p>
+                    <p>I fell into wedding and engagement photos after being asked by a friend to take their wedding
+                        photos. Since then I have enjoyed working with people on their special day. My photography style
+                        is to try and bring out the natural personality of my subject by making them feel at ease.</p>
+                    <p>I also take the same approach to my design work, opting for simplicity and allowing the content
+                        to shine.</p>
+                </div>
+            </div>
+        </article>
+    </div>
+    <div class="container content">
+        <h2>Skills</h2>
+        <div class="columns">
+            {% for card in skill_cards %}
+            <div class="column">
+                <div class="box has-text-centered">
+                    <img src="{{ card.img }}" alt="{{ card.title }}">
+
+                    <div class="content">
+                        <h3><a href="{{ card.url }}">{{ card.title }}</a></h3>
+                        <p>{{ card.desc }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container content">
+        <h2>Contact</h2>
+        <p>Want to get in touch? Feel free to <a href="mailto:patrick@deadlypenguin.com">email me</a></a></p>
+        <h3>Rates</h3>
+        <div class="columns">
+            <div class="column content">
+                <p>Rates for photography vary from shoot to shoot and are affected by:</p>
+                <ul>
+                    <li>Duration</li>
+                    <li>Location</li>
+                    <li>Date</li>
+                    <li>Complexity</li>
+                </ul>
+            </div>
+            <div class="column content">
+                <p>Rates for design work vary based on the job and are affected by:</p>
+                <ul>
+                    <li>Scope</li>
+                    <li>Due Date</li>
+                    <li>Technological Limitations</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
