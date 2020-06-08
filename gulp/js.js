@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const gulp_browserify = require('gulp-browserify');
+const gulp_bro = require('gulp-bro');
 const gulp_connect = require('gulp-connect');
 const path = require('path');
 
@@ -21,7 +21,7 @@ function js() {
     const dist_path = path.join(constants.getDistDir(), constants.JS);
 
     return gulp.src(js_path())
-        .pipe(gulp_browserify())
+        .pipe(gulp_bro())
         .pipe(gulp.dest(dist_path))
         .pipe(gulp_connect.reload());
 }
