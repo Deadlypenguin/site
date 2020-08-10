@@ -1,0 +1,39 @@
+{% macro card(name, img, url, desktop_size = "is-one-quarter-desktop", tablet_size = "is-half-tablet") -%}
+<div class="column {{ desktop_size }} {{ tablet_size }}">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image">
+                {% if url %}
+                    <a href="{{ url }}">
+                        <img src="{{ img }}" alt="{{ name }}" />
+                    </a>
+                {% else %}
+                    <img src="{{ img }}" alt="{{ name }}" />
+                {% endif %}
+            </figure>
+        </div>
+        <div class="card-content">
+            <h3 class="title has-text-centered is-4">
+                {% if url %}
+                    <a href="{{ url }}">{{ name }}</a>
+                {% else %}
+                    {{ name }}
+                {% endif %}
+            </h3>
+        </div>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro location_column(locations) -%}
+<div class="column is-one-third-desktop is-one-third-tablet">
+    {% for location in locations %}
+        <h3 class="title is-4">{{ location.name }}</h3>
+        <ul>
+            {% for sub in location.locations %}
+                <li><a href="{{ sub.url }}">{{ sub.name }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</div>
+{%- endmacro %}

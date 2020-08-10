@@ -1,84 +1,5 @@
-{% set logos = [
-    {
-        name: 'Nerd Herd Shoe',
-        img: '/img/design/logos/nerdherd.png'
-    },
-    {
-        name: 'Practical Survivor Paw',
-        img: '/img/design/logos/practicalsurvivor.png'
-    },
-    {
-        name: 'Engravinator',
-        img: '/img/design/logos/engravinator.png'
-    },
-    {
-        name: 'Triangle Beats',
-        img: '/img/design/logos/trianglebeats.png'
-    },
-    {
-        name: 'ngForce',
-        img: '/img/design/logos/ngforce.png'
-    },
-    {
-        name: 'Motion1',
-        img: '/img/design/logos/motion1.png'
-    }
-]%}
-
-{% set sites = [
-    {
-        name: 'Engravinator',
-        link: 'https://engravinator.com',
-        img: '/img/design/sites/engravinator.png'
-    },
-    {
-        name: 'Deadlypenguin Blog',
-        link: 'https://blog.deadlypenguin.com',
-        img: '/img/design/sites/blog.png'
-    },
-    {
-        name: 'Connelly.dev',
-        link: 'https://connelly.dev',
-        img: '/img/design/sites/connelly.png'
-    }
-]%}
-
-{% set designs = [
-    {
-        name: 'Tuna 200 2019',
-        img: '/img/design/designs/tuna_2019.png'
-    },
-    {
-        name: 'Richmond Trail Ragnar 2019',
-        img: '/img/design/designs/ragnar_2019.png'
-    },
-    {
-        name: 'Tuna 200 2018',
-        img: '/img/design/designs/tuna_2018.png'
-    },
-    {
-        name: 'Tuna 200 2017',
-        img: '/img/design/designs/tuna_2017.png'
-    },
-    {
-        name: 'Practical Survivor Pillars',
-        img: '/img/design/designs/practicalsurvivor_pillars.png'
-    },
-    {
-        name: 'Signal Fest Flyer',
-        img: '/img/design/designs/signalfest.png'
-    },
-    {
-        name: 'Brother of Bushcraft 2015',
-        img: '/img/design/designs/bob_2015.png'
-    },
-    {
-        name: 'Dreamforce Streak 2014',
-        img: '/img/design/designs/dreamforce_2014.png'
-    }
-]%}
-
 {% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
 
 {% block content %}
 <section class="section">
@@ -86,32 +7,14 @@
         <h1 class="title has-text-centered is-2">Design</h1>
         <h2 class="title has-text-centered is-3">Logos</h2>
         <div class="columns is-multiline">
-            {% for logo in logos %}
-            <div class="column is-one-third-desktop is-half-tablet">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="{{ logo.img }}" alt="{{ logo.name }}">
-                        </figure>
-                    </div>
-                </div>
-            </div>
+            {% for c in data.logos %}
+                {{ helpers.card(c.name, c.img, c.url, "is-one-third-desktop")}}
             {% endfor %}
         </div>
         <h2 class="title has-text-centered is-3">Websites</h2>
         <div class="columns is-multiline">
-            {% for site in sites %}
-            <div class="column is-half-desktop is-half-tablet">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image">
-                            <a href="{{ site.link }}">
-                                <img src="{{ site.img }}" alt="{{ site.name }}">
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-            </div>
+            {% for c in data.sites %}
+                {{ helpers.card(c.name, c.img, c.url, "is-half-desktop")}}
             {% endfor %}
         </div>
         <div class="is-size-7 has-text-right">
@@ -119,16 +22,8 @@
         </div>
         <h2 class="title has-text-centered is-3">Designs</h2>
         <div class="columns is-multiline">
-            {% for design in designs %}
-            <div class="column is-half-desktop is-half-tablet">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="{{ design.img }}" alt="{{ design.name }}">
-                        </figure>
-                    </div>
-                </div>
-            </div>
+            {% for c in data.designs %}
+                {{ helpers.card(c.name, c.img, c.url, "is-half-desktop")}}
             {% endfor %}
         </div>
     </div>

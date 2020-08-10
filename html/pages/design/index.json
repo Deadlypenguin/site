@@ -1,0 +1,79 @@
+{
+    "logos": [
+        {
+            "name": "Nerd Herd Shoe",
+            "img": "/img/design/logos/nerdherd.png"
+        },
+        {
+            "name": "Practical Survivor",
+            "img": "/img/design/logos/practicalsurvivor.png"
+        },
+        {
+            "name": "Engravinator",
+            "img": "/img/design/logos/engravinator.png"
+        },
+        {
+            "name": "Triangle Beats",
+            "img": "/img/design/logos/trianglebeats.png"
+        },
+        {
+            "name": "ngForce",
+            "img": "/img/design/logos/ngforce.png"
+        },
+        {
+            "name": "Motion1",
+            "img": "/img/design/logos/motion1.png"
+        }
+    ],
+    "sites": [
+        {
+            "name": "Engravinator",
+            "url": "https://engravinator.com",
+            "img": "/img/design/sites/engravinator.png"
+        },
+        {
+            "name": "Deadlypenguin Blog",
+            "url": "https://blog.deadlypenguin.com",
+            "img": "/img/design/sites/blog.png"
+        },
+        {
+            "name": "Connelly.dev",
+            "url": "https://connelly.dev",
+            "img": "/img/design/sites/connelly.png"
+        }
+    ],
+    "designs": [
+        {
+            "name": "Tuna 200 - 2019",
+            "img": "/img/design/designs/tuna_2019.png"
+        },
+        {
+            "name": "Richmond Trail Ragnar - 2019",
+            "img": "/img/design/designs/ragnar_2019.png"
+        },
+        {
+            "name": "Tuna 200 - 2018",
+            "img": "/img/design/designs/tuna_2018.png"
+        },
+        {
+            "name": "Tuna 200 - 2017",
+            "img": "/img/design/designs/tuna_2017.png"
+        },
+        {
+            "name": "Practical Survivor - Pillars",
+            "img": "/img/design/designs/practicalsurvivor_pillars.png"
+        },
+        {
+            "name": "Signal Fest - Flyer",
+            "img": "/img/design/designs/signalfest.png"
+        },
+        {
+            "name": "Brother of Bushcraft - 2015",
+            "img": "/img/design/designs/bob_2015.png"
+        },
+        {
+            "name": "Dreamforce Streak - 2014",
+            "img": "/img/design/designs/dreamforce_2014.png"
+        }
+    ]
+}
