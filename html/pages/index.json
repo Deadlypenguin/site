@@ -1,0 +1,29 @@
+{
+    "carousel_images": [
+        "/img/carousel/rdu.jpg",
+        "/img/carousel/hij.jpg",
+        "/img/carousel/nyc.jpg",
+        "/img/carousel/bos.jpg",
+        "/img/carousel/uky.jpg"
+    ],
+    "skill_cards": [
+        {
+            "title": "Photography",
+            "url": "/photography/",
+            "img": "/img/photography_large.jpg",
+            "desc": "I love sharing my photos with the world. In addition to my photos from around the world, you can also see photos from weddings, engagements and other events I have photographed."
+        },
+        {
+            "title": "Development",
+            "url": "https://connelly.dev",
+            "img": "/img/development_large.png",
+            "desc": "Over the years, I have learned (and taught myself) lots about programming. Take a look at some of the development projects I'm involved in, and more information about the languages I'm familiar with."
+        },
+        {
+            "title": "Design",
+            "url": "/design/",
+            "img": "/img/design_large.png",
+            "desc": "My design experience doesn't just extend to web design, but also to physical products such as t-shirts and flyers."
+        }
+    ]
+}

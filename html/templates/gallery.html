@@ -1,0 +1,30 @@
+{% set uses = [
+    'gallery'
+] %}
+
+<!DOCTYPE html>
+<html>
+{% include "partials/head.html" %}
+<body>
+    <div id="site_wrapper" class="container is-fullhd">
+        {% include "partials/navigation.html" %}
+
+        <div id="carousel" class="carousel level"></div>
+
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                {% for crumb in breadcrumbs %}
+                <li class="{{ "is-active" if loop.last }}"><a href="{{ crumb.url }}">{{ crumb.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        {% include "partials/footer.html" %}
+        {% include "partials/scripts.html" %}
+
+        <script>
+            window.getPhotos('{{ photoset }}');
+        </script>
+    </div>
+</body>
+</html>

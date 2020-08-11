@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/css/main.css">
 
-{% if uses and 'carousel' in uses %}
+{% if uses and ('carousel' in uses or 'gallery' in uses) %}
 <link rel="stylesheet" href="/css/bulma-carousel.min.css">
 <link rel="stylesheet" href="/css/carousel.css">
 {% endif %}
