@@ -1,0 +1,22 @@
+{
+    "photoset": "",
+    "subtitle": "Victoria",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "canada",
+            "url": "/photography/places/ca/"
+        },
+        {
+            "name": "victoria",
+            "url": "/photography/places/victoria/"
+        }
+    ]
+}

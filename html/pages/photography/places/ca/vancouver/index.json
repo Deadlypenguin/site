@@ -1,0 +1,22 @@
+{
+    "photoset": "",
+    "subtitle": "Vancouver",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "canada",
+            "url": "/photography/places/ca/"
+        },
+        {
+            "name": "vancouver",
+            "url": "/photography/places/vancouver/"
+        }
+    ]
+}

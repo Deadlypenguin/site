@@ -1,0 +1,18 @@
+{
+    "photoset": "72157634194789151",
+    "subtitle": "Engagements",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "people",
+            "url": "/photography/people/"
+        },
+        {
+            "name": "engagements",
+            "url": "/photography/people/engagements/"
+        }
+    ]
+}

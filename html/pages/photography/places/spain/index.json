@@ -1,0 +1,18 @@
+{
+    "photoset": "",
+    "subtitle": "Spain",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "spain",
+            "url": "/photography/places/spain/"
+        }
+    ]
+}

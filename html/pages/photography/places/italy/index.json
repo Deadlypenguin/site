@@ -1,0 +1,18 @@
+{
+    "photoset": "",
+    "subtitle": "Italy",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "italy",
+            "url": "/photography/places/italy/"
+        }
+    ]
+}

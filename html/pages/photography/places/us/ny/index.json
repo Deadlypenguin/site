@@ -1,0 +1,22 @@
+{
+    "photoset": "72157633613173840",
+    "subtitle": "New York",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "united states",
+            "url": "/photography/places/us/"
+        },
+        {
+            "name": "new york",
+            "url": "/photography/places/us/ny/"
+        }
+    ]
+}

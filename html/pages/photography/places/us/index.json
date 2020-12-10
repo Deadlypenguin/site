@@ -1,0 +1,84 @@
+{
+    "states": [
+        {
+            "name": "Alaska",
+            "url": "/photography/places/us/ak/"
+        },
+        {
+            "name": "California",
+            "url": "/photography/places/us/ca/"
+        },
+        {
+            "name": "Colorado",
+            "url": "/photography/places/us/co/"
+        },
+        {
+            "name": "Florida",
+            "url": "/photography/places/us/fl/"
+        },
+        {
+            "name": "Georgia",
+            "url": "/photography/places/us/ga/"
+        },
+        {
+            "name": "Hawaii",
+            "url": "/photography/places/us/hi/"
+        },
+        {
+            "name": "Massachusetts",
+            "url": "/photography/places/us/ma/"
+        },
+        {
+            "name": "Michigan",
+            "url": "/photography/places/us/mi/"
+        },
+        {
+            "name": "North Carolina",
+            "url": "/photography/places/us/nc/"
+        },
+        {
+            "name": "New York",
+            "url": "/photography/places/us/ny/"
+        },
+        {
+            "name": "Ohio",
+            "url": "/photography/places/us/oh/"
+        },
+        {
+            "name": "Oklahoma",
+            "url": "/photography/places/us/ok/"
+        },
+        {
+            "name": "Oregon",
+            "url": "/photography/places/us/or/"
+        },
+        {
+            "name": "Pennsylvania",
+            "url": "/photography/places/us/pa/"
+        },
+        {
+            "name": "South Carolina",
+            "url": "/photography/places/us/sc/"
+        },
+        {
+            "name": "Tennessee",
+            "url": "/photography/places/us/tn/"
+        },
+        {
+            "name": "Texas",
+            "url": "/photography/places/us/tx/"
+        },
+        {
+            "name": "Virginia",
+            "url": "/photography/places/us/va/"
+        },
+        {
+            "name": "Washington",
+            "url": "/photography/places/us/wa/"
+        },
+        {
+            "name": "Washington DC",
+            "url": "/photography/places/us/dc/"
+        }
+    ]
+}

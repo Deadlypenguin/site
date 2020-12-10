@@ -1,0 +1,18 @@
+{
+    "photoset": "72157634294250168",
+    "subtitle": "Portraits",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "people",
+            "url": "/photography/people/"
+        },
+        {
+            "name": "portraits",
+            "url": "/photography/people/portraits/"
+        }
+    ]
+}

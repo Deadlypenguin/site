@@ -1,0 +1,18 @@
+{
+    "photoset": "",
+    "subtitle": "Germany",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "germany",
+            "url": "/photography/places/germany/"
+        }
+    ]
+}

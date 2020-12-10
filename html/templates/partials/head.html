@@ -1,10 +1,13 @@
+{% if subtitle %}
+{% set pagetitle = subtitle + " &raquo; Deadlypenguin" %}
+{% elif data.subtitle %}
+{% set pagetitle = data.subtitle + " &raquo; Deadlypenguin" %}
+{% else %}
+{% set pagetitle = "Deadlypenguin" %}
+{% endif %}
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if subtitle %}
-    <title>{{ subtitle }} &raquo; Deadlypenguin</title>
-    {% else %}
-    <title>Deadlypenguin</title>
-    {% endif %}
+    <title>{{ pagetitle | safe }}</title>
     {% include "partials/styles.html" %}
 </head>

@@ -1,0 +1,22 @@
+{
+    "photoset": "",
+    "subtitle": "California",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "united states",
+            "url": "/photography/places/us/"
+        },
+        {
+            "name": "california",
+            "url": "/photography/places/us/ca/"
+        }
+    ]
+}

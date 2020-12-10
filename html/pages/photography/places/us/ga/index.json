@@ -1,0 +1,22 @@
+{
+    "photoset": "",
+    "subtitle": "Georgia",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "united states",
+            "url": "/photography/places/us/"
+        },
+        {
+            "name": "georgia",
+            "url": "/photography/places/us/ga/"
+        }
+    ]
+}

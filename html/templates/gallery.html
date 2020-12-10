@@ -13,7 +13,7 @@
 
         <nav class="breadcrumb" aria-label="breadcrumbs">
             <ul>
-                {% for crumb in breadcrumbs %}
+                {% for crumb in data.breadcrumbs %}
                 <li class="{{ "is-active" if loop.last }}"><a href="{{ crumb.url }}">{{ crumb.name }}</a></li>
                 {% endfor %}
             </ul>
@@ -23,7 +23,7 @@
         {% include "partials/scripts.html" %}
 
         <script>
-            window.getPhotos('{{ photoset }}');
+            window.getPhotos('{{ data.photoset }}');
         </script>
     </div>
 </body>

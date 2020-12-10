@@ -1,0 +1,18 @@
+{
+    "photoset": "",
+    "subtitle": "France",
+    "breadcrumbs": [
+        {
+            "name": "home",
+            "url": "/photography/"
+        },
+        {
+            "name": "places",
+            "url": "/photography/places/"
+        },
+        {
+            "name": "france",
+            "url": "/photography/places/france/"
+        }
+    ]
+}
