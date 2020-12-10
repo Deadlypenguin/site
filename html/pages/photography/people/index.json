@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+            "name": "Weddings",
+            "img": "/img/photography/weddings.jpg",
+            "url": "/photography/people/weddings/"
+        },
+        {
+            "name": "Engagements",
+            "img": "/img/photography/engagements.jpg",
+            "url": "/photography/people/engagements/"
+        },
+        {
+            "name": "Portraits",
+            "img": "/img/photography/portraits.jpg",
+            "url": "/photography/people/portraits/"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "year": 2012,
+    "events": [
+        {
+            "name": "Honey Harvest",
+            "img": "/img/photography/2012-honey.jpg",
+            "url": "/photography/events/2012/honey/"
+        },
+        {
+            "name": "JSOH",
+            "img": "/img/photography/2012-jsoh.jpg",
+            "url": "/photography/events/2012/jsoh/"
+        },
+        {
+            "name": "Carolina Rollergirls",
+            "img": "/img/photography/2012-rollergirls.jpg",
+            "url": "/photography/events/2012/rollergirls/"
+        }
+    ]
+}

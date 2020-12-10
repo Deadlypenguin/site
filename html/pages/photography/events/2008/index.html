@@ -1,0 +1,17 @@
+{% set subtitle = "Events" %}
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+
+{% block content %}
+<section class="section">
+    <div class="container content">
+        <h1 class="title has-text-centered is-2">Events</h1>
+        <h2 class="title has-text-centered is-3">{{ data.year }}</h2>
+        <div class="columns is-multiline">
+            {% for c in data.events %}
+                {{ helpers.card(c.name, c.img, c.url) }}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
