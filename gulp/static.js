@@ -1,6 +1,5 @@
 const config = require('config');
 const gulp = require('gulp');
-const merge = require('merge-stream');
 const path = require('path');
 
 const constants = require('./constants');

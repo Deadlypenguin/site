@@ -4,10 +4,16 @@
 
 body {
     background-color: $siteMain;
+    min-height: 100%;
+    min-height: 100vh;
 }
 
 #site_wrapper {
     background-color: $siteBackground;
+    min-height: 100%;
+    min-height: 100vh;
+    /* stylelint-disable-next-line unit-whitelist */
+    padding-bottom: 150px;
 }
 
 a {
@@ -29,10 +35,18 @@ a {
     }
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 footer.columns {
     margin-right: 0;
     margin-left: 0;
     padding-bottom: 3rem;
+    margin-bottom: 0;
 
     a,
     a:hover,
@@ -55,4 +69,16 @@ footer.columns {
         /* stylelint-disable-next-line unit-whitelist */
         padding-left: 40px
     }
+}
+
+.feather {
+    /* stylelint-disable-next-line unit-whitelist */
+    width: 24px;
+    /* stylelint-disable-next-line unit-whitelist */
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
 }
