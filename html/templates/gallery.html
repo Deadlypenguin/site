@@ -9,9 +9,10 @@
     <div id="site_wrapper" class="container is-fullhd">
         {% include "partials/navigation.html" %}
 
-        <div id="carousel" class="carousel level"></div>
+        <div id="carousel" class="carousel level is-hidden-mobile is-hidden-tablet-only"></div>
+        <div id="gallery" class="columns is-hidden-desktop is-centered"></div>
 
-        <nav class="breadcrumb" aria-label="breadcrumbs">
+        <nav class="breadcrumb pl-4 pb-2" aria-label="breadcrumbs">
             <ul>
                 {% for crumb in data.breadcrumbs %}
                 <li class="{{ "is-active" if loop.last }}"><a href="{{ crumb.url }}">{{ crumb.name }}</a></li>

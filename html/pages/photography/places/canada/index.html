@@ -1,0 +1,15 @@
+{% set subtitle = "Canada" %} {% extends "layout.html" %} {% import
+"partials/helpers.html" as helpers %} {% block content %}
+<section class="section">
+  <div class="container content">
+    <h1 class="title has-text-centered is-2">Canada</h1>
+    <div class="columns is-multiline">
+      <ul>
+        {% for state in data.city %}
+            {{ helpers.location_link(city) }}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock %}

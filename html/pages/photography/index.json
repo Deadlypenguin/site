@@ -142,12 +142,20 @@
                             "url": "/photography/places/us/ak/"
                         },
                         {
+                            "name": "Arizona",
+                            "url": "/photography/places/us/az/"
+                        },
+                        {
                             "name": "California",
                             "url": "/photography/places/us/ca/"
                         },
                         {
                             "name": "Colorado",
                             "url": "/photography/places/us/co/"
+                        },
+                        {
+                            "name": "Connecticut",
+                            "url": "/photography/places/us/ct/"
                         },
                         {
                             "name": "Florida",
@@ -168,6 +176,10 @@
                         {
                             "name": "Michigan",
                             "url": "/photography/places/us/mi/"
+                        },
+                        {
+                            "name": "Nevada",
+                            "url": "/photography/places/us/nv/"
                         },
                         {
                             "name": "New York",
@@ -204,6 +216,10 @@
                         {
                             "name": "Texas",
                             "url": "/photography/places/us/tx/"
+                        },
+                        {
+                            "name": "Utah",
+                            "url": "/photography/places/us/ut/"
                         },
                         {
                             "name": "Virginia",

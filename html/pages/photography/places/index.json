@@ -1,18 +1,202 @@
 {
-    "photoset": "",
-    "subtitle": "",
-    "breadcrumbs": [
+    "places": [
         {
-            "name": "home",
-            "url": "/photography/"
+            "locations": [
+                {
+                    "name": "Africa",
+                    "locations": [
+                        {
+                            "name": "Morocco",
+                            "url": "/photography/places/morocco/"
+                        }
+                    ]
+                },
+                {
+                    "name": "Asia",
+                    "locations": [
+                        {
+                            "name": "Japan",
+                            "url": "/photography/places/japan/"
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "locations": [
+                        {
+                            "name": "Vancouver",
+                            "url": "/photography/places/ca/vancouver/"
+                        },
+                        {
+                            "name": "Victoria",
+                            "url": "/photography/places/ca/victoria/"
+                        }
+                    ]
+                },
+                {
+                    "name": "Caribbean",
+                    "locations": [
+                        {
+                            "name": "Bahamas",
+                            "url": "/photography/places/bahamas/"
+                        },
+                        {
+                            "name": "St Lucia",
+                            "url": "/photography/places/stlucia/"
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "places",
-            "url": "/photography/places/"
+            "locations": [
+                {
+                    "name": "Europe",
+                    "locations": [
+                        {
+                            "name": "Austria",
+                            "url": "/photography/places/austria/"
+                        },
+                        {
+                            "name": "France",
+                            "url": "/photography/places/france/"
+                        },
+                        {
+                            "name": "Germany",
+                            "url": "/photography/places/germany/"
+                        },
+                        {
+                            "name": "Italy",
+                            "url": "/photography/places/italy/"
+                        },
+                        {
+                            "name": "Netherlands",
+                            "url": "/photography/places/netherlands/"
+                        },
+                        {
+                            "name": "Spain",
+                            "url": "/photography/places/spain/"
+                        },
+                        {
+                            "name": "Sweden",
+                            "url": "/photography/places/sweden/"
+                        },
+                        {
+                            "name": "Switzerland",
+                            "url": "/photography/places/switzerland/"
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "url": "/photography/places/unitedkingdom/"
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "austria",
-            "url": "/photography/places//"
+            "locations": [
+                {
+                    "name": "United States",
+                    "locations": [
+                        {
+                            "name": "Alaska",
+                            "url": "/photography/places/us/ak/"
+                        },
+                        {
+                            "name": "Arizona",
+                            "url": "/photography/places/us/az/"
+                        },
+                        {
+                            "name": "California",
+                            "url": "/photography/places/us/ca/"
+                        },
+                        {
+                            "name": "Colorado",
+                            "url": "/photography/places/us/co/"
+                        },
+                        {
+                            "name": "Connecticut",
+                            "url": "/photography/places/us/ct/"
+                        },
+                        {
+                            "name": "Florida",
+                            "url": "/photography/places/us/fl/"
+                        },
+                        {
+                            "name": "Georgia",
+                            "url": "/photography/places/us/ga/"
+                        },
+                        {
+                            "name": "Hawaii",
+                            "url": "/photography/places/us/hi/"
+                        },
+                        {
+                            "name": "Massachusetts",
+                            "url": "/photography/places/us/ma/"
+                        },
+                        {
+                            "name": "Michigan",
+                            "url": "/photography/places/us/mi/"
+                        },
+                        {
+                            "name": "Nevada",
+                            "url": "/photography/places/us/nv/"
+                        },
+                        {
+                            "name": "New York",
+                            "url": "/photography/places/us/ny/"
+                        },
+                        {
+                            "name": "North Carolina",
+                            "url": "/photography/places/us/nc/"
+                        },
+                        {
+                            "name": "Ohio",
+                            "url": "/photography/places/us/oh/"
+                        },
+                        {
+                            "name": "Oklahoma",
+                            "url": "/photography/places/us/ok/"
+                        },
+                        {
+                            "name": "Oregon",
+                            "url": "/photography/places/us/or/"
+                        },
+                        {
+                            "name": "Pennsylvania",
+                            "url": "/photography/places/us/pa/"
+                        },
+                        {
+                            "name": "South Carolina",
+                            "url": "/photography/places/us/sc/"
+                        },
+                        {
+                            "name": "Tennessee",
+                            "url": "/photography/places/us/tn/"
+                        },
+                        {
+                            "name": "Texas",
+                            "url": "/photography/places/us/tx/"
+                        },
+                        {
+                            "name": "Utah",
+                            "url": "/photography/places/us/ut/"
+                        },
+                        {
+                            "name": "Virginia",
+                            "url": "/photography/places/us/va/"
+                        },
+                        {
+                            "name": "Washington",
+                            "url": "/photography/places/us/wa/"
+                        },
+                        {
+                            "name": "Washington, DC",
+                            "url": "/photography/places/us/dc/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -22,22 +22,28 @@ function getFlickrUrl(photoset) {
 function outputPhotosToDOM(response) {
     return new Promise(function (resolve) {
         const carousel = jQuery('#carousel');
+        const gallery = jQuery('#gallery');
 
-        response.data.photoset.photo.forEach((element, index) => {
-            carousel.append(`<div class="level-item item-${index} has-text-centered"><img src="${element.url_m}" /></div>`);
-        });
+        if (!response.data.photoset) {
+            resolve();
+        } else {
+            response.data.photoset.photo.forEach((element, index) => {
+                carousel.append(`<div class="level-item item-${index} has-text-centered"><img src="${element.url_m}" /></div>`);
+                gallery.append(`<div class="column has-text-centered"><img src="${element.url_m}" /></div>`);
+            });
 
-        const carousel_opts = {
-            loop: true,
-            infinite: true,
-            autoplay: true,
-            slidesToScroll: 1,
-            slidesToShow: 1
-        };
+            const carousel_opts = {
+                loop: true,
+                infinite: true,
+                autoplay: true,
+                slidesToScroll: 1,
+                slidesToShow: 1
+            };
 
-        console.log(bulmaCarousel.attach('#carousel', carousel_opts));
+            bulmaCarousel.attach('#carousel', carousel_opts);
 
-        resolve();
+            resolve();
+        }
     });
 }
 
