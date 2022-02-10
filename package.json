@@ -37,6 +37,6 @@
     "gulp-sitemap": "^7.6.0",
     "jquery": "^3.5.1",
     "merge-stream": "^2.0.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   }
 }
