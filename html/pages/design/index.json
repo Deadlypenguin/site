@@ -1,6 +1,16 @@
 {
     "logos": [
         {
+            "name": "Salesforce Ohana Slack",
+            "img": "/img/design/logos/ohanalarge.png",
+            "href": "/design/ohanaslack/"
+        },
+        {
+            "name": "CU Boulder Salesforce Student Group",
+            "img": "/img/design/logos/cuboulder.png",
+            "href": "/design/cuboulder/"
+        },
+        {
             "name": "Nerd Herd Shoe",
             "img": "/img/design/logos/nerdherd.png"
         },
@@ -27,6 +37,11 @@
     ],
     "sites": [
         {
+            "name": "Southeast Dreamin",
+            "url": "https://southeastdreamin.com",
+            "img": "/img/design/sites/sedreamin.png"
+        },
+        {
             "name": "Engravinator",
             "url": "https://engravinator.com",
             "img": "/img/design/sites/engravinator.png"
@@ -43,6 +58,14 @@
         }
     ],
     "designs": [
+        {
+            "name": "Tuna 200 - 2022",
+            "img": "/img/design/designs/tuna_2022.png"
+        },
+        {
+            "name": "Tuna 200 - 2021",
+            "img": "/img/design/designs/tuna_2021.png"
+        },
         {
             "name": "Tuna 200 - 2019",
             "img": "/img/design/designs/tuna_2019.png"
