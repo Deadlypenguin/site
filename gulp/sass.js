@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const gulp_connect = require('gulp-connect');
-const gulp_sass = require('gulp-sass');
+const gulp_sass = require('gulp-sass')(require('node-sass'));
 const path = require('path');
 
 const constants = require('./constants');
