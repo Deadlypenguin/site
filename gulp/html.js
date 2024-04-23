@@ -12,7 +12,15 @@ const constants = require('./constants');
  * @returns {String} The HTML page file path
  */
 function page_path() {
-    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|json)');
+    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|njk)');
+}
+
+/**
+ * Gets the path to the HTML page files
+ * @returns {String} The HTML page file path
+ */
+function watch_page_path() {
+    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|njk|json)');
 }
 
 /**
@@ -66,7 +74,7 @@ function html() {
  * @returns {undefined}
  */
 function watch() {
-    gulp.watch(page_path(), html);
+    gulp.watch(watch_page_path(), html);
     gulp.watch(template_path(), html);
 }
 
