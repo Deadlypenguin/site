@@ -59,6 +59,14 @@
     ],
     "designs": [
         {
+            "name": "Prairie Series - 2023",
+            "img": "/img/design/designs/prairie_2023.png"
+        },
+        {
+            "name": "Tuna 200 - 2023",
+            "img": "/img/design/designs/tuna_2023.png"
+        },
+        {
             "name": "Tuna 200 - 2022",
             "img": "/img/design/designs/tuna_2022.png"
         },

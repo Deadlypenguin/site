@@ -12,7 +12,7 @@ const constants = require('./constants');
  * @returns {String} The HTML page file path
  */
 function page_path() {
-    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks)');
+    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|json)');
 }
 
 /**
